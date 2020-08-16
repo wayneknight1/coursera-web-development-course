@@ -1,0 +1,230 @@
+/* Base  */
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: Times New Roman,;
+  color: red; 
+  text-align: center;
+}
+
+body {
+  
+  background-color: yellow;
+
+
+}
+
+p {
+  padding: 10px;
+  margin: 0;
+  color: white;
+}
+
+.container {
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+}
+
+section {
+  border: 1px solid black;
+  background-color:  #4d004d;
+  width: 100%;
+  height: 200px;
+  font-family: "Lucida Console", Courier, monospace;
+  color: black;
+  position: relative;
+  overflow: auto;
+}
+
+#ht {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: "Lucida Console", Courier, monospace;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: orange;
+  color: white;
+}
+
+#cs {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: "Lucida Console", Courier, monospace;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: white;
+  color: black;
+}
+
+#js {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: "Lucida Console", Courier, monospace;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  background-color: green;
+  color:  white;
+  padding: 5px;
+}
+
+.row {
+  width: 100%;
+}
+
+/* Desktop style */
+
+@media (min-width: 992px) {
+  .col-ds-1, .col-ds-2, .col-ds-3, .col-ds-4, .col-ds-5, .col-ds-6, .col-ds-7, .col-ds-8, .col-ds-9, .col-ds-10, .col-ds-11, .col-ds-12 {
+    float: left;
+  }
+
+  .col-ds-1 {
+    width: 8.33%;
+  }
+  .col-ds-2 {
+    width: 16.66%;
+  }
+  .col-ds-3 {
+    width: 25%;
+  }
+  .col-ds-4 {
+    width: 33.33%;
+  }
+  .col-ds-5 {
+    width: 41.66%;
+  }
+  .col-ds-6 {
+    width: 50%;
+  }
+  .col-ds-7 {
+    width: 58.33%;
+  }
+  .col-ds-8 {
+    width: 66.66%;
+  }
+  .col-ds-9 {
+    width: 74.99%;
+  }
+  .col-ds-10 {
+    width: 83.33%;
+  }
+  .col-ds-11 {
+    width: 91.66%;
+  }
+  .col-ds-12 {
+    width: 100%;
+  }
+
+}
+
+/* Tablet style */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-ta-1, .col-ta-2, .col-ta-3, .col-ta-4, .col-ta-5, .col-ta-6, .col-ta-7, .col-ta-8, .col-ta-9, .col-ta-10, .col-ta-11, .col-ta-12 {
+    float: left;
+  }
+
+  .col-ta-1 {
+    width: 8.33%;
+  }
+  .col-ta-2 {
+    width: 16.66%;
+  }
+  .col-ta-3 {
+    width: 25%;
+  }
+  .col-ta-4 {
+    width: 33.33%;
+  }
+  .col-ta-5 {
+    width: 41.66%;
+  }
+  .col-ta-6 {
+    width: 50%;
+  }
+  .col-ta-7 {
+    width: 58.33%;
+  }
+  .col-ta-8 {
+    width: 66.66%;
+  }
+  .col-ta-9 {
+    width: 74.99%;
+  }
+  .col-ta-10 {
+    width: 83.33%;
+  }
+  .col-ta-11 {
+    width: 91.66%;
+  }
+  .col-ta-12 {
+    width: 100%;
+  }
+}
+
+/* Mobile style */
+
+@media (max-width: 767px) {
+  .col-mo-1, .col-mo-2, .col-mo-3, .col-mo-4, .col-mo-5, .col-mo-6, .col-mo-7, .col-mo-8, .col-mo-9, .col-mo-10, .col-mo-11, .col-mo-12 {
+  float: left;
+  }
+
+  .col-mo-1 {
+    width: 8.33%;
+  }
+  .col-mo-2 {
+    width: 16.66%;
+  }
+  .col-mo-3 {
+    width: 25%;
+  }
+  .col-mo-4 {
+    width: 33.33%;
+  }
+  .col-mo-5 {
+    width: 41.66%;
+  }
+  .col-mo-6 {
+    width: 50%;
+  }
+  .col-mo-7 {
+    width: 58.33%;
+  }
+  .col-mo-8 {
+    width: 66.66%;
+  }
+  .col-mo-9 {
+    width: 74.99%;
+  }
+  .col-mo-10 {
+    width: 83.33%;
+  }
+  .col-mo-11 {
+    width: 91.66%;
+  }
+  .col-mo-12 {
+    width: 100%;
+  }
+}
